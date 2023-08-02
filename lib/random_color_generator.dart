@@ -39,7 +39,7 @@ class _RandomColorGeneratorState extends State<RandomColorGenerator> {
         appBar: AppBar(
           title: const Text(
             'Random Color Generator',
-            style: TextStyle(color: Colors.white),
+            style: TextStyle(color: Colors.black),
           ),
           centerTitle: true,
           backgroundColor: _backgroundColor,
@@ -51,7 +51,7 @@ class _RandomColorGeneratorState extends State<RandomColorGenerator> {
             style: TextStyle(
               fontSize: 36,
               fontWeight: FontWeight.bold,
-              color: Colors.white,
+              color: Colors.black,
             ),
           ),
         ),
